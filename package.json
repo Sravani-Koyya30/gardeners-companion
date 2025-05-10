@@ -3,14 +3,16 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
+ "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy:gh": "gh-pages -d dist",
+  "deploy:firebase": "firebase deploy",
+  "deploy:all": "npm run build && npm run deploy:gh && npm run deploy:firebase"
+},
+
   "dependencies": {
     "firebase": "^11.4.0",
     "lottie-react": "^2.4.1",
