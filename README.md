@@ -13,7 +13,7 @@
 
 Gardener’s Companion is a responsive, full-stack web application designed to support gardening enthusiasts in exploring and managing a personal collection of plants. Users can browse a plant database, save favorites to a dashboard, and maintain personal notes about their care routines. The project focuses on delivering a practical, mobile-friendly web experience that incorporates user interaction, authentication, and real-time data management.
 
-This application was developed as the final project for the CS-641 course at Illinois Institute of Technology and incorporates concepts taught throughout the semester, including responsive layout, single-page application structure, state management, client-server communication, and deployment.
+This application was developed as the final project for the CS-641 course at PACE University and incorporates concepts taught throughout the semester, including responsive layout, single-page application structure, state management, client-server communication, and deployment.
 
 ---
 
